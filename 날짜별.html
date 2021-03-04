@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>날짜별 활동기록</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="menu_bar.css">
+    <link rel="stylesheet" href="달력_style.css">
+    <link rel="stylesheet" href="날짜별_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.6/fullcalendar.min.css">
+
+  </head>
+  <body>
+    <!--vertical menu bar-->
+    <div class="header-top clear">
+     <div class="middle">
+       <div class="logo left">
+         <a href="#"><img src="fire.png" alt="불 로고"><span>성공 시스템을 일깨워라</span></a>
+       </div>
+       <div class="menu left">
+         <input type="checkbox">
+         <span class="bar"><i class="fas fa-bars"></i></span>
+         <span class="cross"><i class="fas fa-times"></i></span>
+         <ul>
+           <li><a href="1.html">홈</a></li>
+           <li><a href="날짜별.html">날짜별</a></li>
+           <li><a href="#">피드</a></li>
+           <li><a href="#">나의 통계</a></li>
+           <li><a href="#">연락</a></li>
+         </ul>
+       </div>
+     </div>
+   </div>
+   <!--출처: https://codepen.io/marwan-mihan-mursalin/pen/NWNXjVM-->
+   <div class="price" style="background-color:white; margin-top:70px; display:block;" >
+      <div class="middle">
+        <div class="price-content text-center">
+            <h2>Divide your goals by schedules</h2>
+            <p>Set of tools to powerfully keep your plans and goals</p>
+        </div>
+      </div>
+    </div>
+
+
+   <main>
+     <div class="device">
+       <header>
+         <div class="header-bar"></div>
+         <div class="header-title">
+           <h1>Calendar</h1>
+         </div>
+         <div class="header-weekdays">
+           <span>sun</span>
+           <span>mon</span>
+           <span>tue</span>
+           <span>wed</span>
+           <span>thu</span>
+           <span>fri</span>
+           <span>sat</span>
+         </div>
+       </header>
+       <section>
+         <h2 class="month">January</h2>
+         <form>
+           <input type="radio" name="calendar-label-bg" class="calendar-label-bg" id="vacation" />
+           <input type="radio" name="calendar-label-bg" class="calendar-label-bg" id="walk" />
+           <input type="radio" name="calendar-label-bg" class="calendar-label-bg" id="fishing" />
+           <input type="radio" name="calendar-label-bg" class="calendar-label-bg" id="weekend" />
+           <input type="radio" name="calendar-label-bg" id="new" class="calendar-label-bg">
+           <div class="calendar">
+             <input type="checkbox" name="" id="" class="day previous-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day current-month" />
+             <input type="checkbox" name="" id="" class="day next-month" />
+             <input type="checkbox" name="" id="" class="day next-month" />
+             <input type="checkbox" name="" id="" class="day next-month" />
+             <div class="calendar-labels">
+               <label for="vacation"><span>vacation</span></label>
+               <label for="walk"><span>walk</span></label>
+               <label for="fishing"><span>fishing</span></label>
+               <label for="weekend"><span>weekend</span></label>
+               <label for="new" class="full"><input type="text" placeholder="Add new task"></label>
+               <label class="reset">
+                 <input type="reset" value="Reset" />
+               </label>
+             </div>
+           </div>
+         </form>
+         <h2 class="month">February</h2>
+         <div class="calendar inactive">
+           <input type="checkbox" name="" id="" class="day next-month">
+           <input type="checkbox" name="" id="" class="day next-month">
+           <input type="checkbox" name="" id="" class="day next-month">
+           <input type="checkbox" name="" id="" class="day next-month">
+           <input type="checkbox" name="" id="" class="day next-month">
+           <input type="checkbox" name="" id="" class="day next-month">
+           <input type="checkbox" name="" id="" class="day next-month">
+           <input type="checkbox" name="" id="" class="day next-month">
+           <input type="checkbox" name="" id="" class="day next-month">
+           <input type="checkbox" name="" id="" class="day next-month">
+           <input type="checkbox" name="" id="" class="day next-month">
+           <input type="checkbox" name="" id="" class="day next-month">
+           <input type="checkbox" name="" id="" class="day next-month">
+           <input type="checkbox" name="" id="" class="day next-month">
+           <input type="checkbox" name="" id="" class="day next-month">
+           <input type="checkbox" name="" id="" class="day next-month">
+           <input type="checkbox" name="" id="" class="day next-month">
+           <input type="checkbox" name="" id="" class="day next-month">
+           <input type="checkbox" name="" id="" class="day next-month">
+           <input type="checkbox" name="" id="" class="day next-month">
+           <input type="checkbox" name="" id="" class="day next-month">
+           <input type="checkbox" name="" id="" class="day next-month">
+           <input type="checkbox" name="" id="" class="day next-month">
+           <input type="checkbox" name="" id="" class="day next-month">
+           <input type="checkbox" name="" id="" class="day next-month">
+           <input type="checkbox" name="" id="" class="day next-month">
+           <input type="checkbox" name="" id="" class="day next-month">
+           <input type="checkbox" name="" id="" class="day next-month">
+           <input type="checkbox" name="" id="" class="day next-month">
+           <input type="checkbox" name="" id="" class="day next-month">
+         </div>
+       </section>
+     </main>
+
+     <!--https://codepen.io/davidkpiano/pen/wBGjMr-->
+
+   </div>
+   <aside>
+
+     <div class="meta">
+       <h1>목표 성취- 날짜별로 목표값 입력</h1>
+       <p>
+         날짜별 목표값 입력하면 된다.<br>
+         made by Doil Kim
+       </p>
+       <p>
+         두 개의 날짜를 누르고, 라벨이 나오는 것을 확인해라.<br>
+         <strike>최고로</strike> 크롬에서 작동한다.
+       </p>
+     </div>
+   </aside>
+
+   <!--https://codepen.io/davidkpiano/pen/wBGjMr-->
+   <br>
+   <span>
+  .
+  </span>
+
+  <div class="price" style=" margin-top:0px;" >
+     <div class="middle">
+       <div class="price-content text-center">
+           <h2>Write your goals in a calendar</h2>
+           <p>You can write from daily to a year</p>
+       </div>
+     </div>
+   </div>
+
+      <div id ="wrap" style="margin-bottom:100px;">
+           <div id='external-events'>
+               <div id='external-events-listing'>
+                   <h4>Draggable Events</h4>
+                   <div class='fc-event'>My Event 1</div>
+                   <div class='fc-event'>My Event 2</div>
+                   <div class='fc-event'>My Event 3</div>
+                   <div class='fc-event'>My Event 4</div>
+                   <div class='fc-event'>My Event 5</div>
+               </div>
+               <p>
+                   <input type='checkbox' id='drop-remove'  checked='checked'/>
+                   <label for='drop-remove'>remove after drop</label>
+               </p>
+           </div>
+
+           <div id='calendar'></div>
+
+           <div style='clear:both'></div>
+      </div>
+
+           <script src= "https://code.jquery.com/jquery-1.11.2.min.js"></script>
+           <script src="https://code.jquery.com/ui/1.11.2/jquery-ui.min.js"></script>
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js"></script>
+           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.6/fullcalendar.min.js"></script>
+           <script src="달력.js"></script>
+
+<!--https://codepen.io/subodhghulaxe/pen/EavbOz-->
+  </body>
+</html>

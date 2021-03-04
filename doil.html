@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <!--문자형식 지정-->
+  <meta http-equiv="content-script-type" content="text/javascript" />
+  <!--스크립트 형식 지정-->
+  <meta http-equiv="content-style-type" content="text/css" />
+  <!--스타일시 형식 지정-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Doil Kim" />
+  <meta name="description" content="I'm Doil Kim, a creative and curious engineering" />
+  <meta name="keywords" content="Doil Kim, Interactive Resume, Energy, App developer" />
+  <meta name="robots" content="index, follow" />
+  <!--로봇이 본 페이지 방문 허용 여부-->
+
+  <title>Doil Kim - Interactive Resume</title>
+  <script type="text/javascript" src="jquery.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="bootstrap.min.js"></script>
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link href="bootstrap.min.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+
+</head>
+
+<body data-spy="scroll" data-target="#navbar-example">
+  <!--네비게이션 메뉴 표시바-->
+  <div id="top" class="jumbotron" style="height:551px;">
+    <div class="container">
+      <h1>Doil Kim</h1>
+      <p class="lead">Interactive resume</p>
+    </div>
+
+    <div class="overlay"></div>
+    <!--하늘색-->
+
+    <a href="#profile" class="scroll-down">
+      <span class="glyphicon glyphicon-chevron-down"></span>
+    </a>
+  </div>
+  <nav class="navbar navbar-default" id="navbar-example" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#profile">Profile</a></li>
+        <li><a href="#experiences">Experiences</a></li>
+        <li><a href="#abilities">Abilities</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </nav>
+
+  <div class="background-white">
+    <div id="profile" class="container">
+      <h2>Profile</h2>
+      <p class="lead">I'm a creative webdeveloper</p>
+
+      <hr />
+
+      <div class="row">
+        <div class="col-md-4">
+          <h3>About me</h3>
+          <p>
+            저는 한양대학교 4학년입니다. 에너지공학과, 빅데이터 융합을 전공하고 있습니다. 분석을 잘하고, 항상 호기심과 질문이 가득합니다. 최근에는 html,css,javascript에 대해
+            공부하고 있습니다. 또한, 팀 프로젝트도 좋아합니다.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="me.jpg" alt="2021" width="246" height="246" />
+        </div>
+        <div class="col-md-4">
+          <h3>Details</h3>
+          <p>
+            <strong>이름:</strong>
+            김도일<br />
+            <strong>나이:</strong>
+            26살<br />
+            <strong>위치:</strong>
+            서울특별시, 대한민국
+          </p>
+        </div>
+      </div>
+
+      <div class="text-center">
+        <p> '혼자 가면 빨리가고, 같이 가면 멀리간다.'</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="experiences" class="container">
+    <h2>Experiences</h2>
+    <p class="lead">
+      &ldquo;강을 거슬러 헤엄치는 자가 강물의 세기를 안다.&rdquo;<br />- W.연설
+    </p>
+
+    <hr />
+    <h3>Educations</h3>
+
+    <div class="experiences">
+      <div class="experience row">
+        <div class="col-md-4">
+          <h4>한양대학교(Hanyang University)</h4>
+          <p class="experience-period">
+            2016.01 -
+          </p>
+        </div>
+        <div class="col-md-8">
+          <p>
+            <strong>전공 - 에너지공학과 (다중전공:빅데이터 융합학과)</strong>
+            <span class="hidden-phone">
+              에너지공학과에서는 전기화학, 배터리, 열역학, 전달 현상, 신재생 에너지에 대해 공부합니다. 빅데이터 융합학과에서는 파이썬, 텍스트 마이닝, 자료구조론, 확률과 통계, 통계적 모델링에 대한 내용을 학습합니다.
+            </span>
+            <span class="experience-details">
+              <span class="location">
+                <span class="glyphicon glyphicon-map-marker"></span>
+                Online </span>
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr />
+
+    <h3>Careers</h3>
+    <div class="experiences">
+
+      <div class="experience row">
+        <div class="col-md-4">
+          <h4>한국원자력연구원</h4>
+          <p class="experience-period">
+            2020.06-08</p>
+        </div>
+        <div class="col-md-8">
+          <p>
+            <strong>인턴 - 데이터 분석</strong>
+            <span class="hidden-phone">
+              2020년도 여름 계절 학기 단기 현장 실습. 대전 한국원자력연구원 중자동위원소응연구부 인턴으로, 방사선 분석 기술을 이용한 다양한 분석 실습 및 데이터 분석 연구를 진행하였습니다.
+              미세먼지 포집 및 분석 실습, 엑셀과 분석 프로그램을 활용한 분석 결과 논의 및 연구를 진행했습니다.</span>
+            <span class="experience-details">
+              <span class="location">
+                <span class="glyphicon glyphicon-map-marker"></span>
+                Daejeon
+              </span>
+            </span>
+          </p>
+        </div>
+      </div>
+
+      <div class="experience row">
+        <div class="col-md-4">
+          <h4>웹, 어플 개발</h4>
+          <p class="experience-period">
+            2020.12.30 - </p>
+        </div>
+        <div class="col-md-8">
+          <p>
+            <strong>웹 디자이너 및 어플 개발자</strong>
+            <span class="hidden-phone">
+              원하는 웹 사이트와 어플을 만들고자 인터넷을 보며 HTML, CSS, JavaScript 독학. 다른 사이트들 참고하며 Interactive Resume, 자기관리, 주식기초, 와인테이스팅노트 관련 웹사이트 제작.
+            '연애관상테스트' 웹사이트 출시 및 어플 출시 예정</span>
+            <span class="experience-details">
+              <span class="location">
+                <span class="glyphicon glyphicon-map-marker"></span>
+                Songpa
+              </span>
+            </span>
+          </p>
+        </div>
+      </div>
+
+      <div class="experience row">
+        <div class="col-md-4">
+          <h4>국제기구 인턴(UN,IEA)희망</h4>
+          <p class="experience-period">
+            2022.02- 08 희망</p>
+        </div>
+        <div class="col-md-8">
+          <p>
+            <strong>에너지 빅데이터 사이언티스트</strong>
+            <span class="hidden-phone">
+              다양한 사람들이 모인 세계적으로 정말 유명한 국제기구 어떻게 일하는 지 궁금했습니다. 그곳에서, 나의 에너지 빅데이터라는 나만의 전문성을 개발하여 인정받고,
+              내 지식이 많은 사람에게 선한 영향력을 행사했으면 좋겠습니다.
+            </span>
+            <span class="experience-details">
+              <span class="location">
+                <span class="glyphicon glyphicon-map-marker"></span>
+                Paris, France
+              </span>
+            </span>
+          </p>
+        </div>
+      </div>
+
+      <div class="experience row">
+        <div class="col-md-4">
+          <h4>고려대학원 MILAB 석사 희망</h4>
+          <p class="experience-period">
+            2022.09 희망</p>
+        </div>
+        <div class="col-md-8">
+          <p>
+            <strong>멀티미디어 정보 연구실</strong>
+            <span class="hidden-phone">
+              티미디어, SNS 데이터를 포함한 빅데이터의 효과적인 처리를 위한 다양한 기술을 연구 희망. 특히 그중에서, 스마트 그리드의 핵 기술 중 하나인
+              에너지관리시스템(EMS)에 관한 연구 진행 희망. 건설기술과 ICT 기술, 에너지기술을 융합 활용하여 건물에 대한 각종 정보를 수집하고 데이터를 분석하여 건물에 최적의
+              환경을 제공하고 에너지를 효율적으로 관리하여 주는 시스템
+            </span>
+            <span class="experience-details">
+              <span class="location">
+                <span class="glyphicon glyphicon-map-marker"></span>
+                Koryu University
+              </span>
+            </span>
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!--ability part-->
+  <div class="background-white">
+    <div id="abilities" class="container">
+      <h2>Abilities</h2>
+      <p class="lead">
+        &ldquo;지식이 없는 삶은 병든 삶과 똑같다.&rdquo;<br />- 탈리브 웰리
+      </p>
+      <hr />
+      <h3>Skills</h3>
+      <div class="row">
+        <div class="col-md-6">
+          <ul class="no-bullets">
+            <li>
+              <span class="ability-title">Energy Engineering</span>
+              <span class="ability-score">
+                <span class="glyphicon glyphicon-star filled"></span>
+                <span class="glyphicon glyphicon-star filled"></span>
+                <span class="glyphicon glyphicon-star filled"></span>
+                <span class="glyphicon glyphicon-star filled"></span>
+                <span class="glyphicon glyphicon-star"></span>
+              </span>
+            </li>
+            <li>
+              <span class="ability-title">Python</span>
+              <span class="ability-score">
+                <span class="glyphicon glyphicon-star filled"></span>
+                <span class="glyphicon glyphicon-star filled"></span>
+                <span class="glyphicon glyphicon-star filled"></span>
+                <span class="glyphicon glyphicon-star "></span>
+                <span class="glyphicon glyphicon-star "></span>
+              </span>
+            </li>
+            <li>
+              <span class="ability-title">HTML,CSS,Javascript</span>
+              <span class="ability-score">
+                <span class="glyphicon glyphicon-star filled"></span>
+                <span class="glyphicon glyphicon-star filled"></span>
+                <span class="glyphicon glyphicon-star filled"></span>
+                <span class="glyphicon glyphicon-star filled"></span>
+                <span class="glyphicon glyphicon-star "></span>
+              </span>
+            </li>
+            <li>
+              <span class="ability-title">Excel, PowerPoint</span>
+              <span class="ability-score">
+                <span class="glyphicon glyphicon-star filled"></span>
+                <span class="glyphicon glyphicon-star filled"></span>
+                <span class="glyphicon glyphicon-star "></span>
+                <span class="glyphicon glyphicon-star "></span>
+                <span class="glyphicon glyphicon-star "></span>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <hr />
+
+      <h3>Languages</h3>
+      <div class="row">
+        <div class="col-md-6">
+          <ul class="no-bullets">
+            <li>
+              <span class="ability-title">한국어</span>
+              <span class="ability-score">
+                <span class="glyphicon glyphicon-star filled"></span>
+                <span class="glyphicon glyphicon-star filled"></span>
+                <span class="glyphicon glyphicon-star filled"></span>
+                <span class="glyphicon glyphicon-star filled"></span>
+                <span class="glyphicon glyphicon-star filled"></span>
+              </span>
+            </li>
+            <li>
+              <span class="ability-title">영어</span>
+              <span class="ability-score">
+                <span class="glyphicon glyphicon-star filled"></span>
+                <span class="glyphicon glyphicon-star filled"></span>
+                <span class="glyphicon glyphicon-star filled"></span>
+                <span class="glyphicon glyphicon-star filled"></span>
+                <span class="glyphicon glyphicon-star "></span>
+              </span>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <ul class="no-bullets">
+            <li>
+              <span class="ability-title">스페인어</span>
+              <span class="ability-score">
+                <span class="glyphicon glyphicon-star filled"></span>
+                <span class="glyphicon glyphicon-star filled"></span>
+                <span class="glyphicon glyphicon-star "></span>
+                <span class="glyphicon glyphicon-star "></span>
+                <span class="glyphicon glyphicon-star "></span>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--project part-->
+  <div id="projects" class="container">
+    <h2>Projects</h2>
+    <p class="lead">
+      &ldquo;마음만 먹으면 무엇이든지 이룰 수 있다.&rdquo;<br />- 벤자민 프랭클린
+    </p>
+    <hr />
+
+    <div class="row">
+      <div class="col-md-6 col-sm-12 col-xs-12">
+        <figure class="effect">
+          <img src="자기개발.jpg" alt="자기 개발" />
+          <figcaption>
+            <h3>자기 개발 어플</h3>
+            <p>목표 작성 및 공유</p>
+            <p><strong>태그:</strong> <br />브라이언 트레이시, 성공 시스템, 어플 개발</p>
+            <a href="1.html" target="_blank">View more</a>
+            <span class="icon">
+              <span class="glyphicon glyphicon-new-window"></span>
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-md-6 col-sm-12 col-xs-12">
+        <figure class="effect">
+          <img src="money.jpg" alt="주식" />
+          <figcaption>
+            <h3>주식 증권사 사이트 모음</h3>
+            <p>증권사별 이벤트 모음을 위해 간단하게 만들었다.</p>
+            <p><strong>태그:</strong> <br />첫 주식, 경제 관련 단어</p>
+            <a href="Joosik.html" target="_blank">View more</a>
+            <span class="icon">
+              <span class="glyphicon glyphicon-new-window"></span>
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-md-6 col-sm-12 col-xs-12">
+        <figure class="effect">
+          <img src="와인.jpg" alt="와인 테이스팅 노트 사이트" />
+          <figcaption>
+            <h3>와인 테이스팅 노트</h3>
+            <p>먹은 와인에 대한 맛을 기록하고, 먹은 와인에 대한 정보 제공</p>
+            <p><strong>태그:</strong> <br />와인 초보, 테이스팅 노트</p>
+            <a href="wine.html" target="_blank">View more</a>
+            <span class="icon">
+              <span class="glyphicon glyphicon-new-window"></span>
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-md-6 col-sm-12 col-xs-12">
+        <figure class="effect">
+          <img src="술게임2.jpg" alt="MT게임 어플" />
+          <figcaption>
+            <h3>MT 게임 어플</h3>
+            <p>친구들과 놀러 갔을 때 하기 좋은 게임들 모음 어플</p>
+            <p><strong>태그:</strong> <br />라이어 게임, 수도퀴즈, 노래 맞추기 등등</p>
+            <span class="icon">
+              <span class="glyphicon glyphicon-new-window"></span>
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+  <!--연락 파트-->
+  <div class="background-gray">
+    <div id="contact" class="container">
+      <h2>Contact</h2>
+      <p class="lead">
+        &ldquo;모르는 게 있으면, 주저하지 말고 다른 사람에게 물어봐라. &rdquo;<br />- 헨리 포드
+      </p>
+
+      <hr />
+      <div class="row">
+        <div class="col-md-6">
+          <ul class="no-bullets">
+            <li>
+              <a href="http://twitter.com/" target="_blank">
+                <span class="icon icon-twitter"></span>
+                http://twitter.com/
+              </a>
+            </li>
+            <li>
+              <a href="http://linkedin.nl/" target="_blank">
+                <span class="icon icon-linkedin"></span>
+                http://linkedin.nl/in/
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <ul class="no-bullets">
+            <li>
+              <a href="mailto:ln.tremegnavlacsap@lacsap">
+                <span class="icon icon-email"></span>
+                <span style="unicode-bidi:bidi-override; ">
+                  gjgjos@naver.com </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>
